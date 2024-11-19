@@ -23,6 +23,7 @@ My research interests lie at **Large Language Model**, **Knowledge Storation in 
 
 
 # 🔥 News
+- *2024.10*:  &nbsp;🎉🎉 I was selected as the outstanding graduate of Sichuan Province.
 - *2024.09*: &nbsp;🎉🎉 I was admitted to join  the Institute of Automation, Chinese Academy of Sciences. My primary research focus will be on LLM.
 
 
@@ -40,6 +41,7 @@ Waiting~
 - *2022.12* National Scholorship (国家奖学金), Ministry of Education.
 - *2023.12* Soong Ching Ling Scholorship (宋庆龄奖学金), University of Electronic Science and Technology of China
 - *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence
+- *2024.10* The outstanding graduate of Sichuan Province (四川省优秀毕业生).
 
 # 📖 Educations
 - *2025.09 - 2028.06 (Future)*, Master of Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
