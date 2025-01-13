@@ -19,12 +19,12 @@ redirect_from:
 
 I'm 4-th year undergraduate student majoring in Software and Engineering at **University of Electronic Science and Technology of China(UESTC)**. Currently, I'm going to join  <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
 
-My research interests lie at **Large Language Model**, **Knowledge Storation in LLM** and **LLM Reasoning**.
+My research interests lie at **Large Language Model**, **[Knowledge Storation in LLM](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**[![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)] and **LLM Reasoning**.
 
 
-# 🔥 News
+<!-- # 🔥 News
 - *2024.10*:  &nbsp;🎉🎉 I was selected as the outstanding graduate of Sichuan Province.
-- *2024.09*: &nbsp;🎉🎉 I was admitted to join  the Institute of Automation, Chinese Academy of Sciences. My primary research focus will be on LLM.
+- *2024.09*: &nbsp;🎉🎉 I was admitted to join  the Institute of Automation, Chinese Academy of Sciences. My primary research focus will be on LLM. -->
 
 
 # 📝 Publications 
@@ -38,10 +38,10 @@ Waiting~
 
 
 # 🎖 Honors and Awards
-- *2022.12* National Scholorship (国家奖学金), Ministry of Education.
-- *2023.12* Soong Ching Ling Scholorship (宋庆龄奖学金), University of Electronic Science and Technology of China
+- *2022.12* National Scholorship, Ministry of Education.
+- *2023.12* Soong Ching Ling Scholorship, University of Electronic Science and Technology of China
 - *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence
-- *2024.10* The outstanding graduate of Sichuan Province (四川省优秀毕业生).
+- *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
 - *2025.09 - 2028.06 (Future)*, Master of Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
