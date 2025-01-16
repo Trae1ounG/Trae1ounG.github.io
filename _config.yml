@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Trae1ounG"
-  avatar           : "images/my-notion-face-portrait"
+  avatar           : "images/my-notion-face-portrait.png"
   bio              : "UESTC->CASIA"
   location         : "Beijing, China"
   employer         :
