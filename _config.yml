@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuqiao Tan"
-description              : "NLPer at CASIA. Focusing on Reasoning and Interpretability in LLMs. "
+description              : "M.S. at CASIA. Focusing on Reasoning and Interpretability in LLMs. "
 repository               : "https://trae1oung.github.io/"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Trae1ounG"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/my-notion-face-portrait"
   bio              : "UESTC->CASIA"
   location         : "Beijing, China"
   employer         :
