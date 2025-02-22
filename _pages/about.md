@@ -42,7 +42,7 @@ Waiting~
 # 🎖 Honors and Awards
 - *2022.12* National Scholorship, Ministry of Education.
 - *2023.12* Soong Ching Ling Scholorship, University of Electronic Science and Technology of China
-- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence (<a href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2">Report</a>)
+- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence (<a href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2">Report</a>) [[code]](https://github.com/Trae1ounG/2024-BaiduAI-LLM-DSI)
 - *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
