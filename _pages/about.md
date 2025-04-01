@@ -38,6 +38,7 @@ Waiting~
 
 - [G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning](https://dl.acm.org/doi/abs/10.1145/3652583.3658040) Ruiting Dai, **Yuqiao Tan**, **ICMR'24**
 - [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, Arxiv
+- [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv 
 
 # 🎖 Honors and Awards
 - *2022.12* National Scholorship, Ministry of Education.
