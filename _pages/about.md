@@ -38,12 +38,16 @@ Waiting~
 
 - [G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning](https://dl.acm.org/doi/abs/10.1145/3652583.3658040) Ruiting Dai, **Yuqiao Tan**, **ICMR'24**
 - [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, Arxiv
-- [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv  <a target="_self" href="https://github.com/Trae1ounG/DyPRAG"> <img style="height:20pt" src="https://img.shields.io/badge/-Code-pink?style=flat&logo=github"></a>
+- **<font color="#660000">New!!</font>** [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv  ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)
+
+# 🤖 Projects
+- **2024.08** BAIDU-AI Differential Search Index: Differential search index for advertisement search based on large language models. Top-1 (1/3600) of 2024 Baidu business AI technology innovation competition (CTI). ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/2024-BaiduAI-LLM-DSI)
+- **<font color="#660000">New!!</font>** **2025.04** Chinese-Logic-RL: Exploring LLM Reasoning with Rule-based Reinforcement Learning in Chinese. ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Chinese-Logic-RL)
 
 # 🎖 Honors and Awards
 - *2022.12* National Scholorship, Ministry of Education.
 - *2023.12* Soong Ching Ling Scholorship, University of Electronic Science and Technology of China
-- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence (<a href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2">Report</a>) [[code]](https://github.com/Trae1ounG/2024-BaiduAI-LLM-DSI)
+- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence (<a href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2">Report</a>) 
 - *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
