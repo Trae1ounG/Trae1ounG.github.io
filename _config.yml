@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuqiao Tan"
-description              : "M.S. at CASIA. Focusing on Reasoning and Interpretability in LLMs. "
+description              : "M.S. at CASIA.\nFocusing on Parametric Knowledge and Reasoning in LLMs."
 repository               : "https://trae1oung.github.io/"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=ISxELyMAAAAJ"
-  email            : "yuqiaot@std.uestc.edu.cn"
+  email            : "tanyuqiao2025@ia.ac.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

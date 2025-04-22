@@ -17,31 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm 4-th year undergraduate student majoring in Software and Engineering at **University of Electronic Science and Technology of China(UESTC)**. Currently, I'm going to join  <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
+I'm 4-th year undergraduate student majoring in Software Engineering at **University of Electronic Science and Technology of China(UESTC)**. Currently, I join <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
 
-My research interests lie at **Large Language Model**, **[Knowledge Storation in LLM](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLM Reasoning**.
+My research interests lie at **Large Language Models**, **[Parametric Knowledge in LLMs](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLMs Reasoning**. 
 
+If my research interests you, please feel free to contact me at tanyuqiao2025@ia.ac.cn. I look forward to potential collaborations and internship opportunities🤗.
 
-<!-- # 🔥 News
-- *2024.10*:  &nbsp;🎉🎉 I was selected as the outstanding graduate of Sichuan Province.
-- *2024.09*: &nbsp;🎉🎉 I was admitted to join  the Institute of Automation, Chinese Academy of Sciences. My primary research focus will be on LLM. -->
 
 
 # 📝 Publications 
 
-<!-- <div class='paper-box'>
-<!-- <div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div> -->
-<!-- <div class='paper-box-text' markdown="1">
-Waiting~
-</div>
-</div> --> 
+
 
 - [G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning](https://dl.acm.org/doi/abs/10.1145/3652583.3658040) Ruiting Dai, **Yuqiao Tan**, **ICMR'24**
-- [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, Arxiv
+- [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, **ICMR'25**
 - **<font color="#660000">New!!</font>** [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv  ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)
 
 # 🤖 Projects
-- **2024.08** BAIDU-AI Differential Search Index: Differential search index for advertisement search based on large language models. Top-1 (1/3600) of 2024 Baidu business AI technology innovation competition (CTI). ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/2024-BaiduAI-LLM-DSI)
+- **2024.08** BAIDU-AI Differential Search Index: Differential search index for advertisement search based on large language models. Top-1 (1/3600) of 2024 Baidu business AI technology innovation competition (CTI).
+ <!-- ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/2024-BaiduAI-LLM-DSI) -->
 - **<font color="#660000">New!!</font>** **2025.04** Chinese-Logic-RL: Exploring LLM Reasoning with Rule-based Reinforcement Learning in Chinese. ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Chinese-Logic-RL)
 
 # 🎖 Honors and Awards
@@ -51,8 +45,8 @@ Waiting~
 - *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
-- *2025.09 - 2028.06 (Future)*, Master of Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
-- *2021.09 - 2025.06*, Bachelor of Software and Engineering, University of Electronic Science and Technology of China (UESTC)
+- *2025.09 - 2028.06*, Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
+- *2021.09 - 2025.06*, Software and Engineering, University of Electronic Science and Technology of China (UESTC)
 
 
 # 💻 Internships
