@@ -53,4 +53,4 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 - *2023.07 - 2024.05*, Research Intern, <a href="https://smartinternet.group/">Smart Internet Group (SIG)</a>, Tsinghua University
 - *2024.01 - 2024.07*, Research Intern, <a href="https://www.dongchedi.com/">DCar-AI-Y</a>, Bytedance
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=44b8d4&w=1500&t=tt&d=Hsk2NMI2XogzrZh85JdligEVrhjt4kMfJHMdGbrrpJQ&cmn=3a61cc&cmo=53ffe3&co=343269'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=44b8d4&w=900&t=tt&d=Hsk2NMI2XogzrZh85JdligEVrhjt4kMfJHMdGbrrpJQ&cmn=3a61cc&cmo=53ffe3&co=343269'></script>
