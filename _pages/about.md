@@ -30,13 +30,13 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 
 
 - [G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning](https://dl.acm.org/doi/abs/10.1145/3652583.3658040) Ruiting Dai, **Yuqiao Tan**, **ICMR'24**
-- [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, **ICMR'25**
-- **<font color="#660000">New!!</font>** [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv  ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)
+- [MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality](https://arxiv.org/abs/2409.04693) Ruiting Dai, **Yuqiao Tan**, **ICMR'25** <a target="_self" href="https://github.com/Trae1ounG/RobustPT"> <img style="height:14pt" src="https://img.shields.io/badge/-MuAP-black?style=flat&logo=github"></a>
+- **<font color="#660000">New!!</font>** [Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu, Arxiv   <a target="_self" href="https://github.com/Trae1ounG/DyPRAG"> <img style="height:14pt" src="https://img.shields.io/badge/-DyPRAG-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)](https://github.com/Trae1ounG/DyPRAG)
 
 # 🤖 Projects
-- **2024.08** BAIDU-AI Differential Search Index: Differential search index for advertisement search based on large language models. Top-1 (1/3600) of 2024 Baidu business AI technology innovation competition (CTI).
+- **2024.08** **Baidu-AI Differential Search Index Competition**: Differential search index for advertisement search based on large language models. Top-1🥇 (1/3600) of 2024 Baidu business AI technology innovation competition (CTI). <a target="_self" href="https://github.com/Trae1ounG/2024-BaiduAI-LLM-DSI"> <img style="height:14pt" src="https://img.shields.io/badge/-BaiduAI-black?style=flat&logo=github"></a>
  <!-- ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/2024-BaiduAI-LLM-DSI) -->
-- **<font color="#660000">New!!</font>** **2025.04** Chinese-Logic-RL: Exploring LLM Reasoning with Rule-based Reinforcement Learning in Chinese. ![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Chinese-Logic-RL)
+- **<font color="#660000">New!!</font>** **2025.04** **Chinese-Logic-RL**: Exploring LLM Reasoning with Rule-based Reinforcement Learning in Chinese. <a target="_self" href="https://github.com/Trae1ounG/Chinese-Logic-RL"> <img style="height:14pt" src="https://img.shields.io/badge/-Chinese_Logic_RL-black?style=flat&logo=github"></a>
 
 # 🎖 Honors and Awards
 - *2022.12* National Scholorship, Ministry of Education.
@@ -52,3 +52,5 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 # 💻 Internships
 - *2023.07 - 2024.05*, Research Intern, <a href="https://smartinternet.group/">Smart Internet Group (SIG)</a>, Tsinghua University
 - *2024.01 - 2024.07*, Research Intern, <a href="https://www.dongchedi.com/">DCar-AI-Y</a>, Bytedance
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Hsk2NMI2XogzrZh85JdligEVrhjt4kMfJHMdGbrrpJQ"></script>
