@@ -41,7 +41,7 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 # 🎖 Honors and Awards
 - *2022.12* National Scholorship, Ministry of Education.
 - *2023.12* Soong Ching Ling Scholorship, University of Electronic Science and Technology of China
-- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence (<a href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2">Report</a>) 
+- *2024.08* First Prize of Baidu business AI technology innovation Competition (CTI) , Chinese Association for Artificial Intelligence  <a target="_self" href="https://baijiahao.baidu.com/s?id=1808718087282135583&wfr=spider&for=pc&searchword=2024%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B&sShare=2"> <img style="height:14pt" src="https://img.shields.io/badge/-Report-black?style=flat&logo=google"></a>
 - *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
@@ -53,4 +53,4 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 - *2023.07 - 2024.05*, Research Intern, <a href="https://smartinternet.group/">Smart Internet Group (SIG)</a>, Tsinghua University
 - *2024.01 - 2024.07*, Research Intern, <a href="https://www.dongchedi.com/">DCar-AI-Y</a>, Bytedance
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Hsk2NMI2XogzrZh85JdligEVrhjt4kMfJHMdGbrrpJQ"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=44b8d4&w=150&t=tt&d=Hsk2NMI2XogzrZh85JdligEVrhjt4kMfJHMdGbrrpJQ&cmn=3a61cc&cmo=53ffe3&co=343269'></script>
