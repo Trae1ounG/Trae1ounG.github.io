@@ -17,18 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm 4-th year undergraduate student majoring in Software Engineering at **University of Electronic Science and Technology of China(UESTC)**. Currently, I join <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
+I'm the first year master student at <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
 
-My research interests lie at **Large Language Models**, **[Parametric Knowledge in LLMs](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLMs Reasoning**. 
+My research interests lie at **Large Language Models**, **[LLMs Interpretability](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLMs Reasoning**. Now I'm focusing on RL techniques to improve LRMs, especially self-play.
 
 If my research interests you, please feel free to contact me at tanyuqiao2025@ia.ac.cn. I look forward to potential collaborations and internship opportunities🤗.
 
 # 🔥 News
-- *2025.05*:🎉 One paper is accepted by ACL 2025 main conference.
+- *2025.05*:🎉 One paper is accepted by ACL 2025 Main.
 - *2025.03*:🎉 One paper is accepted by ICMR 2025. 
 
 # 📝 Publications 
-- `ACL 2025` **<font color="#660000">New!!</font>** [Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in Large Language Models](https://arxiv.org/abs/2505.14436) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao   <a target="_self" href="https://github.com/Trae1ounG/Neural_Incompatibility"> <img style="height:14pt" src="https://img.shields.io/badge/-Neural_Incompatibility-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Neural_Incompatibility)](https://github.com/Trae1ounG/Neural_Incompatibility)
+- `ACL 2025` **<font color="#660000"></font>** [Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in Large Language Models](https://arxiv.org/abs/2505.14436) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao   <a target="_self" href="https://github.com/Trae1ounG/Neural_Incompatibility"> <img style="height:14pt" src="https://img.shields.io/badge/-Neural_Incompatibility-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Neural_Incompatibility)](https://github.com/Trae1ounG/Neural_Incompatibility)
 
 - `Preprint`  [Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu   <a target="_self" href="https://github.com/Trae1ounG/DyPRAG"> <img style="height:14pt" src="https://img.shields.io/badge/-DyPRAG-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)](https://github.com/Trae1ounG/DyPRAG)
 
@@ -50,7 +50,7 @@ If my research interests you, please feel free to contact me at tanyuqiao2025@ia
 - *2024.10* The outstanding graduate of Sichuan Province.
 
 # 📖 Educations
-- *2025.09 - 2028.06*, Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
+- *2025.09 - Now*, Pattern Recognition and Intelligent System, Institute of Automation, Chinese Academy of Sciences (CASIA)
 - *2021.09 - 2025.06*, Software and Engineering, University of Electronic Science and Technology of China (UESTC)
 
 
