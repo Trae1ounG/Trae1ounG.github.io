@@ -24,10 +24,12 @@ My research interests lie at **Large Language Models**, **[LLMs Interpretability
 If my research interests you, please feel free to contact me at tanyuqiao2025@ia.ac.cn. I look forward to potential collaborations and internship opportunities🤗.
 
 # 🔥 News
+- *2025.10*:🎉 One paper is accepted by Neurips 2025 Efficient Reasoning Workshop.
 - *2025.05*:🎉 One paper is accepted by ACL 2025 Main.
 - *2025.03*:🎉 One paper is accepted by ICMR 2025. 
 
 # 📝 Publications 
+- `NIPS 2025` **<font color="#660000"></font>** [The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models](https://efficient-reasoning.github.io/) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao   
 - `ACL 2025` **<font color="#660000"></font>** [Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in Large Language Models](https://arxiv.org/abs/2505.14436) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao   <a target="_self" href="https://github.com/Trae1ounG/Neural_Incompatibility"> <img style="height:14pt" src="https://img.shields.io/badge/-Neural_Incompatibility-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Neural_Incompatibility)](https://github.com/Trae1ounG/Neural_Incompatibility)
 
 - `Preprint`  [Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement](https://arxiv.org/abs/2503.23895) **Yuqiao Tan**, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu   <a target="_self" href="https://github.com/Trae1ounG/DyPRAG"> <img style="height:14pt" src="https://img.shields.io/badge/-DyPRAG-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/DyPRAG)](https://github.com/Trae1ounG/DyPRAG)
