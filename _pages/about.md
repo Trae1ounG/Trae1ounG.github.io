@@ -24,12 +24,17 @@ My research interests lie at **Large Language Models**, **[LLMs Interpretability
 If my research interests you, please feel free to contact me at tanyuqiao2025@ia.ac.cn. I look forward to potential collaborations and internship opportunities🤗.
 
 # 🔥 News
+- *2025.12*:🎉 Our paper "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies" release!! We are the first to decompose the language model policy and conduct bottom-up RL training!!
+
 - *2025.10*:🎉 One paper is accepted by Neurips 2025 Efficient Reasoning Workshop.
 - *2025.05*:🎉 One paper is accepted by ACL 2025 Main.
 - *2025.03*:🎉 One paper is accepted by ICMR 2025. 
 
 # 📝 Publications 
-- `NIPS 2025` **<font color="#660000"></font>** [The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models](https://arxiv.org/abs/2510.19176) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao <a target="_self" href="https://github.com/Trae1ounG/Zero_Step_Thinking"> <img style="height:14pt" src="https://img.shields.io/badge/-Zero_Step_Thinking-black?style=flat&logo=github"></a> 
+- `Preprint` **<font color="#660000">New!!!</font>** [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](https://arxiv.org/abs/2512.19673) **Yuqiao Tan**, Minzheng Wang, Shizhu He, et al.   <a target="_self" href="https://github.com/Trae1ounG/BuPO"> <img style="height:14pt" src="https://img.shields.io/badge/-BuPO-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/BuPO)](https://github.com/Trae1ounG/BuPO)
+
+
+- `NeurIPS 2025` **<font color="#660000"></font>** [The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models](https://arxiv.org/abs/2510.19176) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao <a target="_self" href="https://github.com/Trae1ounG/Zero_Step_Thinking"> <img style="height:14pt" src="https://img.shields.io/badge/-Zero_Step_Thinking-black?style=flat&logo=github"></a> 
   
 - `ACL 2025` **<font color="#660000"></font>** [Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in Large Language Models](https://arxiv.org/abs/2505.14436) **Yuqiao Tan**, Shizhu He, Kang Liu, Jun Zhao   <a target="_self" href="https://github.com/Trae1ounG/Neural_Incompatibility"> <img style="height:14pt" src="https://img.shields.io/badge/-Neural_Incompatibility-black?style=flat&logo=github"></a> [![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Neural_Incompatibility)](https://github.com/Trae1ounG/Neural_Incompatibility)
 
