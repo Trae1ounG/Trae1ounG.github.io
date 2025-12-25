@@ -19,12 +19,12 @@ redirect_from:
 
 I'm the first year master student at <a href="http://www.ia.cas.cn/">the Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, supervised by A.P. <a href="https://heshizhu.github.io/">Shizhu He </a>.
 
-My research interests lie at **Large Language Models**, **[LLMs Interpretability](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLMs Reasoning**. Now I'm focusing on RL techniques to improve LRMs, especially self-play.
+My research interests lie at **Large Language Models**, **[LLMs Interpretability](https://github.com/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs)**![github repo stars](https://img.shields.io/github/stars/Trae1ounG/Awesome-Parametric-Knowledge-in-LLMs) and **LLMs Reasoning**. Now I'm focusing on combining interpretability tools with RL techniques to improve LLMs. I belive ***"you can't improve what you don't understand"***. 
 
 If my research interests you, please feel free to contact me at tanyuqiao2025@ia.ac.cn. I look forward to potential collaborations and internship opportunities🤗.
 
 # 🔥 News
-- *2025.12*:🎉 Our paper "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies" release!! We are the first to decompose the language model policy and conduct bottom-up RL training!!
+- *2025.12*:🎉 Our paper **"Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies"** release!! We are the **first** to decompose the language model policy and conduct bottom-up RL training!! 🎉 We Ranked **#2** of the day on <a href="https://huggingface.co/papers/date/2025-12-24">Huggingface Daily Papers</a>.
 
 - *2025.10*:🎉 One paper is accepted by Neurips 2025 Efficient Reasoning Workshop.
 - *2025.05*:🎉 One paper is accepted by ACL 2025 Main.
