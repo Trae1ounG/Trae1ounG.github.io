@@ -1,0 +1,303 @@
+/* ============================================
+   Theme Variables
+   ============================================ */
+:root {
+  --bg-primary: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #505050;
+  --text-muted: #808080;
+  --accent: #015AE5;
+  --divider: #d0d0d0;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --text-primary: #e8e8e8;
+  --text-secondary: #a0a0a0;
+  --text-muted: #707070;
+  --accent: #015AE5;
+  --divider: #333333;
+}
+
+/* ============================================
+   Base - 衬线字体！
+   ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Optima, Georgia, "Times New Roman", serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode override */
+[data-theme="dark"] body {
+  background: #1a1a1a;
+}
+
+/* ============================================
+   Theme Toggle - 小一点
+   ============================================ */
+#theme-toggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+#theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] #theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] #theme-toggle .icon-moon { display: block; }
+
+/* ============================================
+   Container - 左边大padding
+   ============================================ */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px 80px 60px;
+}
+
+/* ============================================
+   Hero - float左右布局
+   ============================================ */
+.hero {
+  margin-bottom: 16px;
+}
+
+.photo {
+  float: left;
+  width: 25%;
+  padding-top: 10px;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.introduction {
+  float: right;
+  width: 73%;
+}
+
+.introduction h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro {
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.intro strong {
+  font-weight: bold;
+}
+
+.intro em {
+  font-style: italic;
+}
+
+.introduction p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.introduction a {
+  color: var(--accent);
+}
+
+/* 清除浮动 */
+.hero::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ============================================
+   hr
+   ============================================ */
+hr {
+  border: none;
+  border-top: 1px solid var(--divider);
+  margin: 24px 0;
+  clear: both;
+}
+
+/* ============================================
+   Headings
+   ============================================ */
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+
+h4 {
+  font-size: 0.95rem;
+  font-weight: normal;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+/* ============================================
+   ul/li - 简洁样式
+   ============================================ */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: disc;
+  line-height: 28px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+ul li a {
+  color: var(--accent);
+}
+
+/* ============================================
+   News - 没有点
+   ============================================ */
+.news {
+  margin: 0;
+  padding: 0;
+}
+
+.news ul {
+  margin: 0;
+  padding: 0;
+}
+
+.news ul li {
+  list-style-type: none;
+  line-height: 28px;
+  font-size: 0.95rem;
+}
+
+.fa-flag {
+  color: #FF2D2D;
+  padding-right: 8px;
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+/* ============================================
+   Publications - 蓝色左边框
+   ============================================ */
+.media {
+  position: relative;
+  left: 10px;
+  border-left: 5px var(--accent) solid;
+  margin-bottom: 16px;
+}
+
+.media-body {
+  padding-left: 15px;
+}
+
+.media-heading {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.media-heading strong {
+  font-weight: bold;
+}
+
+.media-heading a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.media-heading a:hover {
+  text-decoration: underline;
+}
+
+.media-heading em {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   Internships
+   ============================================ */
+.intern-logo {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  clear: both;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 700px) {
+  .container {
+    padding: 30px 15px 50px 20px;
+  }
+
+  .photo {
+    float: none;
+    width: 40%;
+    margin: 0 auto 16px;
+  }
+
+  .introduction {
+    float: none;
+    width: 100%;
+  }
+
+  .introduction h3 {
+    text-align: center;
+  }
+
+  .media {
+    left: 0;
+  }
+
+  #theme-toggle {
+    top: 8px;
+    right: 8px;
+  }
+}
