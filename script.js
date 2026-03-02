@@ -13,15 +13,14 @@
     // Set new theme
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-
-    // Add transition effect
-    document.documentElement.style.transition = 'background-color 0.3s ease, color 0.3s ease';
   });
 
-  // Check system preference on load
+  // Check system preference on load only if no saved theme
   if (!localStorage.getItem('theme')) {
     const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    document.documentElement.setAttribute('data-theme', prefersLight ? 'light' : 'dark');
+    if (prefersLight) {
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
   }
 })();
 

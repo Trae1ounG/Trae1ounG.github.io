@@ -2,26 +2,39 @@
    Theme Variables
    ============================================ */
 :root {
-  --bg-primary: #ffffff;
-  --text-primary: #1a1a1a;
-  --text-secondary: #505050;
-  --text-muted: #808080;
-  --accent: #015AE5;
-  --divider: #d0d0d0;
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --text-primary: #c9d1d9;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent: #58a6ff;
+  --accent-hover: #79c0ff;
+  --divider: #30363d;
+  --tag-bg: #1f6feb;
+  --tag-text: #ffffff;
+  --code-green: #7ee787;
+  --border-radius: 6px;
 }
 
-/* Dark Theme */
-[data-theme="dark"] {
-  --bg-primary: #1a1a1a;
-  --text-primary: #e8e8e8;
-  --text-secondary: #a0a0a0;
-  --text-muted: #707070;
-  --accent: #015AE5;
-  --divider: #333333;
+/* Light Theme */
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --bg-tertiary: #eaeef2;
+  --text-primary: #1f2328;
+  --text-secondary: #656d76;
+  --text-muted: #8c959f;
+  --accent: #0969da;
+  --accent-hover: #0550ae;
+  --divider: #d0d7de;
+  --tag-bg: #0969da;
+  --tag-text: #ffffff;
+  --code-green: #1a7f37;
 }
 
 /* ============================================
-   Base - 衬线字体！
+   Base
    ============================================ */
 * {
   margin: 0;
@@ -30,230 +43,371 @@
 }
 
 body {
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: Optima, Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Monaco", "Andale Mono", "Ubuntu Mono", monospace;
   background: var(--bg-primary);
   color: var(--text-primary);
   transition: background 0.3s, color 0.3s;
 }
 
-/* Dark mode override */
-[data-theme="dark"] body {
-  background: #1a1a1a;
-}
-
 /* ============================================
-   Theme Toggle - 小一点
+   Theme Toggle
    ============================================ */
 #theme-toggle {
   position: fixed;
-  top: 12px;
-  right: 12px;
+  top: 16px;
+  right: 16px;
   z-index: 1000;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--divider);
+  border-radius: var(--border-radius);
+  width: 36px;
+  height: 36px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+#theme-toggle:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
 }
 
 #theme-toggle .icon-moon { display: none; }
-[data-theme="dark"] #theme-toggle .icon-sun { display: none; }
-[data-theme="dark"] #theme-toggle .icon-moon { display: block; }
+[data-theme="light"] #theme-toggle .icon-sun { display: none; }
+[data-theme="light"] #theme-toggle .icon-moon { display: block; }
 
 /* ============================================
-   Container - 左边大padding
+   Container
    ============================================ */
 .container {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 50px 20px 80px 60px;
+  padding: 60px 24px 80px;
 }
 
 /* ============================================
-   Hero - float左右布局
+   Hero
    ============================================ */
 .hero {
-  margin-bottom: 16px;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
 }
 
 .photo {
-  float: left;
-  width: 25%;
-  padding-top: 10px;
+  flex-shrink: 0;
+  width: 160px;
 }
 
 .photo img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--divider);
 }
 
 .introduction {
-  float: right;
-  width: 73%;
+  flex: 1;
 }
 
-.introduction h3 {
+/* ============================================
+   Terminal Window Style
+   ============================================ */
+.terminal-window {
+  background: var(--bg-secondary);
+  border: 1px solid var(--divider);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--bg-tertiary);
+  border-bottom: 1px solid var(--divider);
+}
+
+.terminal-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+
+.terminal-title {
+  font-family: "SF Mono", "Fira Code", monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.terminal-status {
+  font-family: "SF Mono", "Fira Code", monospace;
+  font-size: 0.75rem;
+  color: var(--code-green);
+}
+
+.terminal-body {
+  padding: 20px;
+}
+
+.introduction h2 {
   font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-weight: normal;
+}
+
+.role {
+  color: var(--accent);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
 }
 
 .intro {
   color: var(--text-secondary);
-  margin-bottom: 10px;
-  text-align: justify;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
 }
 
 .intro strong {
-  font-weight: bold;
+  color: var(--code-green);
 }
 
-.intro em {
-  font-style: italic;
+/* ============================================
+   Topics / Research Interests
+   ============================================ */
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
-.introduction p {
+.topic {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--divider);
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
 }
 
-.introduction a {
+.topic:hover {
+  border-color: var(--accent);
   color: var(--accent);
 }
 
-/* 清除浮动 */
-.hero::after {
-  content: "";
-  display: table;
-  clear: both;
+.contact {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-/* ============================================
-   hr
-   ============================================ */
-hr {
-  border: none;
-  border-top: 1px solid var(--divider);
-  margin: 24px 0;
-  clear: both;
-}
-
-/* ============================================
-   Headings
-   ============================================ */
-h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 12px;
-  margin-top: 8px;
-}
-
-h4 {
-  font-size: 0.95rem;
-  font-weight: normal;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-  margin-top: 20px;
-}
-
-/* ============================================
-   ul/li - 简洁样式
-   ============================================ */
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  list-style-type: disc;
-  line-height: 28px;
+.contact a {
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
 }
 
-ul li a {
+.contact a:hover {
   color: var(--accent);
 }
 
 /* ============================================
-   News - 没有点
+   Sections
+   ============================================ */
+.section {
+  margin-bottom: 36px;
+}
+
+.section h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--divider);
+}
+
+.section-icon {
+  color: var(--accent);
+  margin-right: 8px;
+}
+
+/* ============================================
+   News
    ============================================ */
 .news {
-  margin: 0;
-  padding: 0;
+  list-style: none;
 }
 
-.news ul {
-  margin: 0;
-  padding: 0;
+.news li {
+  padding: 8px 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
-.news ul li {
-  list-style-type: none;
-  line-height: 28px;
-  font-size: 0.95rem;
-}
-
-.fa-flag {
-  color: #FF2D2D;
-  padding-right: 8px;
+.news .date {
+  color: var(--text-muted);
+  margin-right: 8px;
 }
 
 .highlight {
   color: var(--accent);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* ============================================
-   Publications - 蓝色左边框
+   Publications
    ============================================ */
-.media {
-  position: relative;
-  left: 10px;
-  border-left: 5px var(--accent) solid;
-  margin-bottom: 16px;
+.year {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 20px 0 12px;
+  font-weight: normal;
 }
 
-.media-body {
-  padding-left: 15px;
+.pub {
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--divider);
+  border-radius: var(--border-radius);
+  border-left: 3px solid var(--accent);
 }
 
-.media-heading {
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.media-heading strong {
-  font-weight: bold;
-}
-
-.media-heading a {
+.pub > a {
   color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.pub > a:hover {
+  color: var(--accent);
+}
+
+.pub .authors {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+}
+
+.pub .venue {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.pub .venue a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.pub .venue a:hover {
+  color: var(--accent);
+}
+
+/* ============================================
+   Lists
+   ============================================ */
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+ul li {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+ul li a {
+  color: var(--accent);
   text-decoration: none;
 }
 
-.media-heading a:hover {
+ul li a:hover {
   text-decoration: underline;
 }
 
-.media-heading em {
-  font-style: italic;
-  color: var(--text-muted);
+/* Project List */
+.project-list li {
+  list-style: none;
+  padding: 8px 0;
 }
 
-/* ============================================
-   Internships
-   ============================================ */
+.project-name {
+  font-weight: 500;
+}
+
+.project-desc {
+  color: var(--text-muted);
+  margin-left: 8px;
+}
+
+/* Education */
+.edu-list li, .intern-list li, .honor-list li, .talk-list li, .service-list li {
+  list-style: none;
+  padding: 6px 0;
+}
+
+.degree {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.period {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.honor {
+  color: var(--text-secondary);
+}
+
+/* Internships */
 .intern-logo {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   vertical-align: middle;
   margin-right: 6px;
 }
@@ -263,41 +417,40 @@ ul li a {
    ============================================ */
 .footer {
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0 20px;
   color: var(--text-muted);
-  font-size: 0.85rem;
-  clear: both;
+  font-size: 0.8rem;
+  border-top: 1px solid var(--divider);
+  margin-top: 40px;
 }
 
 /* ============================================
    Responsive
    ============================================ */
-@media (max-width: 700px) {
+@media (max-width: 640px) {
   .container {
-    padding: 30px 15px 50px 20px;
+    padding: 40px 16px 60px;
   }
 
-  .photo {
-    float: none;
-    width: 40%;
-    margin: 0 auto 16px;
-  }
-
-  .introduction {
-    float: none;
-    width: 100%;
-  }
-
-  .introduction h3 {
+  .hero {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
-  .media {
-    left: 0;
+  .photo {
+    width: 140px;
   }
 
-  #theme-toggle {
-    top: 8px;
-    right: 8px;
+  .contact {
+    justify-content: center;
+  }
+
+  .topics {
+    justify-content: center;
+  }
+
+  .pub {
+    padding: 10px 12px;
   }
 }
