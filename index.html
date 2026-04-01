@@ -2,187 +2,338 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yuqiao Tan (谭宇乔)</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Yuqiao Tan — M.S. Student at CASIA. Research on LLM Reasoning, Interpretability, Reinforcement Learning, and Personalized Agents.">
+  <meta name="author" content="Yuqiao Tan">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫆</text></svg>">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic&display=swap" rel="stylesheet" type="text/css">
+  <style>
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: "Lato", Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    strong {
+      font-family: "Lato", Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    heading {
+      font-family: "Lato", Verdana, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    papertitle {
+      font-family: "Lato", Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    name {
+      font-family: "Lato", Verdana, Helvetica, sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .holder {
+      display: inline;
+    }
+
+    .holder img {
+      max-height: 200px;
+      max-width: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 860px) {
+      body {
+        padding: 0 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <button id="theme-toggle" aria-label="Toggle theme">
-    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"></line></svg>
-    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-  </button>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24" bgcolor="#F8F9F9">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Yuqiao Tan</name>
+              </p>
+              <p>
+                I am a first year master student at <a href="http://www.ia.ac.cn/" target="_blank">Institute of Automation</a>, advised by Prof. <a href="https://heshizhu.github.io/">Shizhu He</a>.
+                Before that, I received my B.E. from <a href="https://www.uestc.edu.cn/" target="_blank">UESTC</a>.
+                <br>
+                <br>
+                My recent research focuses on LLM reasoning [<a href="https://arxiv.org/abs/2503.23895" target="_blank">DyPRAG</a>/<a href="https://arxiv.org/abs/2510.19176" target="_blank">Zero-Step</a>],
+                LLM interpretability [<a href="https://arxiv.org/abs/2505.14436" target="_blank">LaTen</a>/<a href="https://arxiv.org/abs/2512.19673" target="_blank">BuPO</a>], and
+                reinforcement learning [<a href="https://arxiv.org/abs/2512.19673" target="_blank">BuPO</a>].
+              </p>
+              <p align="center">
+                <a href="mailto:tanyuqiao2025@ia.ac.cn">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/Trae1ounG" target="_blank">Github</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=ISxELyMAAAAJ" target="_blank">Google Scholar</a>
+              </p>
+            </td>
+            <td width="50%">
+              <div class="holder">
+                <img src="images/my-notion-face-portrait.png" alt="Yuqiao Tan">
+              </div>
+            </td>
+          </tr>
+        </table>
 
-  <main class="container">
-    <!-- Hero -->
-    <header class="hero">
-      <div class="photo">
-        <img src="images/my-notion-face-portrait.png" alt="Yuqiao Tan">
-      </div>
-      <div class="introduction">
-        <!-- Terminal Window Style -->
-        <div class="terminal-window">
-          <div class="terminal-header">
-            <div class="terminal-dots">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-            </div>
-            <span class="terminal-title">about.md</span>
-            <span class="terminal-status">ready</span>
-          </div>
-          <div class="terminal-body">
-            <h2>Yuqiao Tan <span class="subtitle">(谭宇乔)</span></h2>
-            <p class="role">M.S. Student @ CASIA</p>
-            <p class="intro">
-              Research focuses on <strong>LLM Reasoning</strong>, <strong>LLM Interpretability</strong>, <strong>Reinforcement Learning</strong>, and <strong>Personalized Agent</strong>. Open to discussions, internships, and collaborations.
-            </p>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Publications</heading>
+            </td>
+          </tr>
 
-            <!-- Research Topics -->
-            <div class="topics">
-              <span class="topic">LLM Reasoning</span>
-              <span class="topic">LLM Interpretability</span>
-              <span class="topic">Reinforcement Learning</span>
-              <span class="topic">Personalized Agent</span>
-            </div>
+          <tr>
+            <td width="100%" valign="middle">
+              <p style="color:#999; font-weight:700; margin:0;"><strong>2025</strong></p>
+              <hr style="border:0; border-top:1px solid #e5e5e5; margin:8px 0 0 0;">
+            </td>
+          </tr>
 
-            <div class="contact">
-              <a href="mailto:tanyuqiao2025@ia.ac.cn"><i class="fa fa-envelope"></i> Email</a>
-              <a href="https://github.com/Trae1ounG" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-              <a href="https://scholar.google.com/citations?user=ISxELyMAAAAJ" target="_blank"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
-              <a href="https://trae1oung.github.io/OpenClaw-Diary/" target="_blank"><span class="lobster-logo">🦞</span> OpenClaw Diary</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://arxiv.org/abs/2512.19673" target="_blank">
+                <papertitle>Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies</papertitle>
+              </a>
+              <br>
+              <b>Yuqiao Tan*</b>, Minzheng Wang*, Shizhu He, et al.
+              <br>
+              <em>Preprint</em>
+              <br>
+              <a href="https://arxiv.org/abs/2512.19673" target="_blank">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/Trae1ounG/BuPO" target="_blank">code</a>
+            </td>
+          </tr>
 
-    <!-- News -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> News</h3>
-      <ul class="news">
-        <li><span class="date">[2026.01]</span> <strong>Invited Talk</strong> at <strong>NICE</strong>: Internal Policy of LLMs and RL — <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank">[Video]</a></li>
-        <li><span class="date">[2025.12]</span> Paper <strong>"Bottom-up Policy Optimization"</strong> released — Ranked <span class="highlight">#3</span> on Huggingface Daily Papers!</li>
-        <li><span class="date">[2025.10]</span> One paper accepted by <strong>NeurIPS 2025</strong> (Efficient Reasoning Workshop).</li>
-        <li><span class="date">[2025.05]</span> One paper accepted by <strong>ACL 2025</strong>.</li>
-        <li><span class="date">[2025.03]</span> One paper accepted by <strong>ICMR 2025</strong>.</li>
-      </ul>
-    </section>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://arxiv.org/abs/2510.19176" target="_blank">
+                <papertitle>The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models</papertitle>
+              </a>
+              <br>
+              <b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao
+              <br>
+              <em>NeurIPS 2025 Efficient Reasoning Workshop</em>
+              <br>
+              <a href="https://arxiv.org/abs/2510.19176" target="_blank">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/Trae1ounG/Zero_Step_Thinking" target="_blank">code</a>
+            </td>
+          </tr>
 
-    <!-- Publications -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Publications</h3>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://arxiv.org/abs/2505.14436" target="_blank">
+                <papertitle>Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in LLMs</papertitle>
+              </a>
+              <br>
+              <b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao
+              <br>
+              <em>ACL 2025</em>
+              <br>
+              <a href="https://arxiv.org/abs/2505.14436" target="_blank">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/Trae1ounG/Neural_Incompatibility" target="_blank">code</a>
+            </td>
+          </tr>
 
-      <h4 class="year">// 2025</h4>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://arxiv.org/abs/2503.23895" target="_blank">
+                <papertitle>Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement</papertitle>
+              </a>
+              <br>
+              <b>Yuqiao Tan</b>, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu
+              <br>
+              <em>Preprint</em>
+              <br>
+              <a href="https://arxiv.org/abs/2503.23895" target="_blank">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/Trae1ounG/DyPRAG" target="_blank">code</a>
+            </td>
+          </tr>
 
-      <div class="pub">
-        <a href="https://arxiv.org/abs/2512.19673" target="_blank">Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies</a>
-        <div class="authors"><strong>Yuqiao Tan*</strong>, Minzheng Wang*, Shizhu He, et al.</div>
-        <div class="venue"><span class="tag">Preprint</span> <a href="https://github.com/Trae1ounG/BuPO" target="_blank"><i class="fa fa-github"></i> Code</a></div>
-      </div>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank">
+                <papertitle>RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-Language Models with Missing Modalities</papertitle>
+              </a>
+              <br>
+              Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
+              <br>
+              <em>ICMR 2025</em>
+              <br>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/Trae1ounG/RobustPT" target="_blank">code</a>
+            </td>
+          </tr>
 
-      <div class="pub">
-        <a href="https://arxiv.org/abs/2510.19176" target="_blank">The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models</a>
-        <div class="authors"><strong>Yuqiao Tan</strong>, Shizhu He, Kang Liu, Jun Zhao</div>
-        <div class="venue"><span class="tag">NeurIPS 2025 Efficient Reasoning Workshop</span> <a href="https://github.com/Trae1ounG/Zero_Step_Thinking" target="_blank"><i class="fa fa-github"></i> Code</a></div>
-      </div>
+          <tr>
+            <td width="100%" valign="middle">
+              <p style="color:#999; font-weight:700; margin:0;"><strong>2024</strong></p>
+              <hr style="border:0; border-top:1px solid #e5e5e5; margin:8px 0 0 0;">
+            </td>
+          </tr>
 
-      <div class="pub">
-        <a href="https://arxiv.org/abs/2505.14436" target="_blank">Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in LLMs</a>
-        <div class="authors"><strong>Yuqiao Tan</strong>, Shizhu He, Kang Liu, Jun Zhao</div>
-        <div class="venue"><span class="tag">ACL 2025</span> <a href="https://github.com/Trae1ounG/Neural_Incompatibility" target="_blank"><i class="fa fa-github"></i> Code</a></div>
-      </div>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://arxiv.org/abs/2409.04693" target="_blank">
+                <papertitle>MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality</papertitle>
+              </a>
+              <br>
+              Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
+              <br>
+              <em>Preprint</em>
+              <br>
+              <a href="https://arxiv.org/abs/2409.04693" target="_blank">paper</a>
+            </td>
+          </tr>
 
-      <div class="pub">
-        <a href="https://arxiv.org/abs/2503.23895" target="_blank">Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement</a>
-        <div class="authors"><strong>Yuqiao Tan</strong>, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu</div>
-        <div class="venue"><span class="tag">Preprint</span> <a href="https://github.com/Trae1ounG/DyPRAG" target="_blank"><i class="fa fa-github"></i> Code</a></div>
-      </div>
+          <tr>
+            <td valign="top" width="95%">
+              <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank">
+                <papertitle>G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge</papertitle>
+              </a>
+              <br>
+              Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
+              <br>
+              <em>ICMR 2024</em>
+              <br>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank">paper</a>
+            </td>
+          </tr>
+        </table>
 
-      <div class="pub">
-        <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank">RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-Language Models with Missing Modalities</a>
-        <div class="authors">Ruiting Dai*, <strong>Yuqiao Tan*</strong>, et al.</div>
-        <div class="venue"><span class="tag">ICMR 2025</span> <a href="https://github.com/Trae1ounG/RobustPT" target="_blank"><i class="fa fa-github"></i> Code</a></div>
-      </div>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Education</heading>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%" valign="center">
+              <p>
+                M.E., Pattern Recognition and Intelligent System, <papertitle>Institute of Automation, UCAS</papertitle>, 2025 - present
+                <br>
+                <br>
+                B.E., Software Engineering, <papertitle>University of Electronic Science and Technology of China</papertitle>, 2021 - 2025
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-      <h4 class="year">// 2024</h4>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Internship</heading>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%" valign="center">
+              <p>
+                <papertitle><a href="https://smartinternet.group/" target="_blank">Tsinghua University, SIG</a></papertitle>, Research Intern, 2023.07 - 2024.05
+                <br>
+                <br>
+                <papertitle><a href="https://www.dongchedi.com/" target="_blank">ByteDance, DCar-AI-Y</a></papertitle>, Research Intern, 2024.01 - 2024.07
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-      <div class="pub">
-        <a href="https://arxiv.org/abs/2409.04693" target="_blank">MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality</a>
-        <div class="authors">Ruiting Dai*, <strong>Yuqiao Tan*</strong>, et al.</div>
-        <div class="venue"><span class="tag">Preprint</span></div>
-      </div>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Award</heading>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%" valign="center">
+              <p>
+                <papertitle>Outstanding Graduate of Sichuan Province</papertitle>, 2024
+                <br>
+                <br>
+                <papertitle>First Prize, Baidu Business AI Technology Innovation Competition (80000 RMB)</papertitle>, 2024
+                <br>
+                <br>
+                <papertitle>Soong Ching Ling Scholarship, UESTC</papertitle>, 2023
+                <br>
+                <br>
+                <papertitle>National Scholarship, Ministry of Education</papertitle>, 2022
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-      <div class="pub">
-        <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank">G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge</a>
-        <div class="authors">Ruiting Dai*, <strong>Yuqiao Tan*</strong>, et al.</div>
-        <div class="venue"><span class="tag">ICMR 2024</span></div>
-      </div>
-    </section>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Invited Talk</heading>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%" valign="center">
+              <p>
+                <papertitle>NICE</papertitle> - Internal Policy of LLMs and Reinforcement Learning, 2026.01
+                <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank">[Video]</a>
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-    <!-- Projects -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Projects</h3>
-      <ul class="project-list">
-        <li>
-          <span class="project-name"><a href="https://github.com/Trae1ounG/2024-BaiduAI-LLM-DSI" target="_blank">Baidu-AI Differential Search Index Competition</a></span>
-          <span class="project-desc">Differential search index for advertisement search based on LLMs.</span>
-          <span class="highlight">Top-1 (1/3600)</span>
-        </li>
-      </ul>
-    </section>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Reviewer</heading>
+            </td>
+          </tr>
+          <tr>
+            <td width="90%" valign="center">
+              <p>
+                ICMR 2025, NeurIPS ER 2025
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-    <!-- Education -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Education</h3>
-      <ul class="edu-list">
-        <li><span class="degree">M.S.</span> — Pattern Recognition and Intelligent System, CASIA · <span class="period">2025 – Now</span></li>
-        <li><span class="degree">B.S.</span> — Software Engineering, UESTC · <span class="period">2021 – 2025</span></li>
-      </ul>
-    </section>
-
-    <!-- Internships -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Internships</h3>
-      <ul class="intern-list">
-        <li><img src="images/logo-tsinghua.svg" class="intern-logo" alt="THU"> <strong>Research Intern</strong> — Smart Internet Group (SIG), <a href="https://smartinternet.group/" target="_blank">Tsinghua University</a> · <span class="period">2023.07 – 2024.05</span></li>
-        <li><img src="images/logo-bytedance.svg" class="intern-logo" alt="BD"> <strong>Research Intern</strong> — DCar-AI-Y, <a href="https://www.dongchedi.com/" target="_blank">ByteDance</a> · <span class="period">2024.01 – 2024.07</span></li>
-      </ul>
-    </section>
-
-    <!-- Honors -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Honors</h3>
-      <ul class="honor-list">
-        <li><span class="honor">Outstanding Graduate of Sichuan Province</span> · <span class="period">2024</span></li>
-        <li><span class="honor">First Prize, Baidu Business AI Technology Innovation Competition (CTI)</span> · <span class="period">2024</span></li>
-        <li><span class="honor">Soong Ching Ling Scholarship, UESTC</span> · <span class="period">2023</span></li>
-        <li><span class="honor">National Scholarship, Ministry of Education</span> · <span class="period">2022</span></li>
-      </ul>
-    </section>
-
-    <!-- Invited Talks -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Invited Talks</h3>
-      <ul class="talk-list">
-        <li><strong>NICE</strong> (2026.01) — Internal Policy of LLMs and Reinforcement Learning — <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank">[Video]</a></li>
-      </ul>
-    </section>
-
-    <!-- Services -->
-    <section class="section">
-      <h3><span class="section-icon">#</span> Services</h3>
-      <ul class="service-list">
-        <li>Reviewer: <strong>ICMR 2025</strong>, <strong>NeurIPS ER 2025</strong></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© 2025 Yuqiao Tan — Keep Learning</p>
-  </footer>
-
-  <script src="script.js"></script>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
