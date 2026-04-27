@@ -56,14 +56,46 @@
     }
 
     .holder {
-      display: inline;
+      position: relative;
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      background: #f4f4f4;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     }
 
     .holder img {
-      max-height: 200px;
-      max-width: 200px;
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      border-radius: 20px;
+      object-position: center center;
+      border-radius: inherit;
+      transition: opacity 0.38s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), filter 0.38s ease;
+      will-change: opacity, transform;
+    }
+
+    .holder .avatar-cartoon {
+      transform: scale(1.08);
+    }
+
+    .holder .avatar-real {
+      opacity: 0;
+      transform: scale(1.02);
+      filter: saturate(0.98) contrast(1.02);
+    }
+
+    .holder:hover .avatar-real {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+
+    .holder:hover .avatar-cartoon {
+      opacity: 0;
+      transform: scale(1.12);
     }
 
     @media (max-width: 860px) {
@@ -100,7 +132,8 @@
             </td>
             <td width="50%">
               <div class="holder">
-                <img src="images/my-notion-face-portrait.png" alt="Yuqiao Tan">
+                <img class="avatar-cartoon" src="images/avatar-cartoon.png" alt="Yuqiao Tan cartoon avatar">
+                <img class="avatar-real" src="images/my-notion-face-portrait.png" alt="Yuqiao Tan portrait">
               </div>
             </td>
           </tr>
@@ -345,7 +378,7 @@
           <tr>
             <td width="90%" valign="center">
               <p>
-                ICMR 2025, NeurIPS ER 2025
+                COLM 2026, ICMR 2025, NeurIPS ER 2025
                 <br>
                 <br>
               </p>
