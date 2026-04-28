@@ -62,8 +62,13 @@
       height: 200px;
       overflow: hidden;
       border-radius: 50%;
+      padding: 0;
+      border: 0;
       background: #f4f4f4;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
     }
 
     .holder img {
@@ -88,14 +93,19 @@
       filter: saturate(0.98) contrast(1.02);
     }
 
-    .holder:hover .avatar-real {
+    .holder.is-real .avatar-real {
       opacity: 1;
       transform: scale(1.08);
     }
 
-    .holder:hover .avatar-cartoon {
+    .holder.is-real .avatar-cartoon {
       opacity: 0;
       transform: scale(1.12);
+    }
+
+    .holder:focus-visible {
+      outline: 2px solid #1772d0;
+      outline-offset: 4px;
     }
 
     @media (max-width: 860px) {
@@ -131,10 +141,10 @@
               </p>
             </td>
             <td width="50%">
-              <div class="holder">
+              <button class="holder" type="button" aria-label="Toggle avatar" aria-pressed="false" title="Click to switch avatar">
                 <img class="avatar-cartoon" src="images/avatar-cartoon.png" alt="Yuqiao Tan cartoon avatar">
                 <img class="avatar-real" src="images/my-notion-face-portrait.png" alt="Yuqiao Tan portrait">
-              </div>
+              </button>
             </td>
           </tr>
         </table>
@@ -389,5 +399,16 @@
       </td>
     </tr>
   </table>
+  <script>
+    (function () {
+      var avatarToggle = document.querySelector('.holder');
+      if (!avatarToggle) return;
+
+      avatarToggle.addEventListener('click', function () {
+        var isReal = avatarToggle.classList.toggle('is-real');
+        avatarToggle.setAttribute('aria-pressed', isReal ? 'true' : 'false');
+      });
+    })();
+  </script>
 </body>
 </html>
