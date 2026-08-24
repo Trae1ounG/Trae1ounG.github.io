@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trae1oung.github.io/posttrainbench0/sitemap.xml
