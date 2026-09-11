@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570" role="img" aria-labelledby="title desc">
+  <title id="title">Research framework</title>
+  <desc id="desc">Mechanistic interpretability and reinforcement learning inform two goals: AI researchers and scientists, and user collaborators. Frontier capability evaluation supports both goals. Users, agents and environments interact through a feedback loop.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1L8 5L1 9" fill="none" stroke="#80929f" stroke-width="1.3"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#263641}
+      .label{font-size:13px;letter-spacing:2px;fill:#72818c}
+      .heading{font-size:25px;font-weight:600}
+      .body{font-size:19px;fill:#566771}
+      .note{font-size:17px;fill:#657782}
+      .flow{fill:none;stroke:#a2afb8;stroke-width:1.4}
+    </style>
+  </defs>
+  <rect width="1000" height="570" fill="#fff"/>
+  <text x="34" y="26" class="label">FOUNDATIONS</text>
+  <text x="263" y="72" text-anchor="middle" class="heading">Mechanistic interpretability</text>
+  <text x="737" y="72" text-anchor="middle" class="heading">Reinforcement learning</text>
+  <text x="263" y="103" text-anchor="middle" class="body">Understand model mechanisms</text>
+  <text x="737" y="103" text-anchor="middle" class="body">Improve models through interaction</text>
+  <path class="flow" d="M263 119V136H737V119M500 136V151M263 167V151H737V167" marker-end="url(#arrow)"/>
+  <path class="flow" d="M263 151V167" marker-end="url(#arrow)"/>
+  <rect x="34" y="179" width="450" height="140" rx="3" fill="#fafcfd" stroke="#d4dfe5"/>
+  <rect x="516" y="179" width="450" height="140" rx="3" fill="#fafcfd" stroke="#d4dfe5"/>
+  <text x="59" y="209" class="label">RESEARCH GOAL 01</text>
+  <text x="541" y="209" class="label">RESEARCH GOAL 02</text>
+  <text x="59" y="246" class="heading">AI researchers &amp; scientists</text>
+  <text x="541" y="246" class="heading">User collaborators</text>
+  <text x="59" y="283" class="body">RSI &amp; interpretability research</text>
+  <text x="541" y="283" class="body">User feedback &amp; adaptive collaboration</text>
+  <path class="flow" d="M259 325V334H741V325"/>
+  <path class="flow" d="M259 340V325" marker-end="url(#arrow)"/>
+  <path class="flow" d="M741 340V325" marker-end="url(#arrow)"/>
+  <path class="flow" d="M500 369V334"/>
+  <rect x="34" y="369" width="932" height="83" rx="3" fill="#f1f6fa"/>
+  <text x="500" y="402" text-anchor="middle" class="heading" style="fill:#285673;font-size:23px">Frontier capability evaluation</text>
+  <text x="500" y="431" text-anchor="middle" class="body">Research tasks · Human–agent interaction · Real-world environments</text>
+  <text x="208" y="497" text-anchor="middle" class="body">User</text>
+  <text x="500" y="497" text-anchor="middle" class="body">Agent</text>
+  <text x="792" y="497" text-anchor="middle" class="body">Environment</text>
+  <path class="flow" d="M254 491H446" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path class="flow" d="M553 491H693" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path class="flow" d="M792 511V540H579M421 540H208V511" marker-end="url(#arrow)"/>
+  <text x="500" y="546" class="note" text-anchor="middle">Feedback</text>
+</svg>

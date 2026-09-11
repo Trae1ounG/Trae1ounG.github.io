@@ -4,583 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yuqiao Tan (谭宇乔)</title>
-  <meta name="description" content="Yuqiao Tan — M.S. Student at CASIA. Research on Frontier Agentic Capabilities, LLM Reasoning, Interpretability, Reinforcement Learning, and Personalized Agents.">
+  <meta name="description" content="Yuqiao Tan — Language models, frontier AI agent capability evaluation, interpretability, and learning from user feedback for human–agent collaboration. Institute of Automation, Chinese Academy of Sciences.">
   <meta name="author" content="Yuqiao Tan">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫆</text></svg>">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic&display=swap" rel="stylesheet" type="text/css">
-  <style>
-    a {
-      color: #1772d0;
-      text-decoration: none;
-    }
-
-    a:focus,
-    a:hover {
-      color: #f09228;
-      text-decoration: none;
-    }
-
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-      font-family: "Lato", Verdana, Helvetica, sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-    }
-
-    strong {
-      font-family: "Lato", Verdana, Helvetica, sans-serif;
-      font-size: 15px;
-      font-weight: 700;
-    }
-
-    heading {
-      font-family: "Lato", Verdana, Helvetica, sans-serif;
-      font-size: 24px;
-      font-weight: 700;
-    }
-
-    papertitle {
-      font-family: "Lato", Verdana, Helvetica, sans-serif;
-      font-size: 15px;
-      font-weight: 900;
-    }
-
-    name {
-      font-family: "Lato", Verdana, Helvetica, sans-serif;
-      font-size: 36px;
-      font-weight: 700;
-    }
-
-    .holder {
-      display: inline-block;
-      width: 200px;
-      height: 200px;
-      overflow: hidden;
-      border-radius: 50%;
-      background: #f4f4f4;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-    }
-
-    .holder img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-      border-radius: inherit;
-      transform: scale(1.08);
-    }
-
-    .page-container {
-      width: 800px;
-      max-width: 100%;
-    }
-
-    .publication-entry {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 190px;
-      gap: 20px;
-      align-items: center;
-    }
-
-    .publication-content {
-      min-width: 0;
-    }
-
-    .paper-tldr {
-      margin: 6px 0;
-      color: #555;
-      font-size: 14px;
-      line-height: 1.45;
-    }
-
-    .paper-tldr strong {
-      color: #333;
-      font-size: 14px;
-      margin-right: 4px;
-    }
-
-    .publication-figure {
-      display: block;
-      width: 190px;
-      border: 1px solid #e5e5e5;
-      border-radius: 6px;
-      background: #fff;
-      overflow: hidden;
-    }
-
-    .publication-figure img {
-      display: block;
-      width: 100%;
-      height: 120px;
-      object-fit: contain;
-    }
-
-    @media (max-width: 860px) {
-      body {
-        padding: 0;
-      }
-
-      .page-container {
-        width: 100%;
-      }
-
-      .profile-table > tbody > tr {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .profile-copy,
-      .profile-photo {
-        width: auto;
-      }
-
-      .profile-photo {
-        order: -1;
-        padding-bottom: 0;
-        text-align: center;
-      }
-
-      .profile-copy {
-        padding-top: 16px;
-      }
-
-      .holder {
-        width: 160px;
-        height: 160px;
-      }
-
-      papertitle {
-        overflow-wrap: anywhere;
-      }
-
-      .publication-entry {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .publication-figure {
-        width: 100%;
-        max-width: 360px;
-        margin: 10px auto 0;
-      }
-
-      .publication-figure img {
-        height: auto;
-        max-height: 220px;
-      }
-
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=framework29">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-  <table class="page-container" width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-      <td>
-        <table class="profile-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="24" bgcolor="#F8F9F9">
-          <tr>
-            <td class="profile-copy" width="67%" valign="middle">
-              <p align="center">
-                <name>Yuqiao Tan</name>
-              </p>
-              <p>
-                I am a first year master student at <a href="http://www.ia.ac.cn/" target="_blank">Institute of Automation</a>, advised by Prof. <a href="https://heshizhu.github.io/">Shizhu He</a>.
-                Before that, I received my B.E. from <a href="https://www.uestc.edu.cn/" target="_blank">UESTC</a>.
-                <br>
-                <br>
-                My recent research focuses on frontier agentic capabilities [<a href="https://trae1oung.github.io/SAEScientist/" target="_blank">SAEScientist</a>/<a href="https://trae1oung.github.io/posttrainbench0/" target="_blank">PostTrainBench⁰</a>/<a href="https://trae1oung.github.io/SWE-Touch/" target="_blank">SWE-Touch</a>],
-                LLM reasoning [<a href="https://arxiv.org/abs/2503.23895" target="_blank">DyPRAG</a>/<a href="https://arxiv.org/abs/2510.19176" target="_blank">Zero-Step</a>],
-                LLM interpretability [<a href="https://arxiv.org/abs/2505.14436" target="_blank">LaTen</a>/<a href="https://arxiv.org/abs/2512.19673" target="_blank">BuPO</a>], and
-                reinforcement learning [<a href="https://arxiv.org/abs/2512.19673" target="_blank">BuPO</a>/<a href="https://arxiv.org/abs/2604.14142" target="_blank">PreRL</a>].
-              </p>
-              <p align="center">
-                <a href="mailto:tanyuqiao2025@ia.ac.cn">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/Trae1ounG" target="_blank">Github</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=ISxELyMAAAAJ" target="_blank">Google Scholar</a>
-              </p>
-            </td>
-            <td class="profile-photo" width="50%">
-              <div class="holder">
-                <img src="images/my-notion-face-portrait.png" alt="Yuqiao Tan portrait">
-              </div>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Publications</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="100%" valign="middle">
-              <p style="color:#999; font-weight:700; margin:0;"><strong>2026</strong></p>
-              <hr style="border:0; border-top:1px solid #e5e5e5; margin:8px 0 0 0;">
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2609.09113" target="_blank">
-                    <papertitle>SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Shizhu He, Jun Zhao, Kang Liu
-                  <br>
-                  <em>Preprint</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> SAEScientist-Bench evaluates whether AI agents can recover semantically specified SAE features using restricted activation probes and validates them through held-out activation and causal steering.</div>
-                  <a href="https://arxiv.org/abs/2609.09113" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/SAEScientist" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/saescientist-framework.png" target="_blank" title="View SAEScientist-Bench Figure 2: experimental workflow">
-                  <img src="images/publications/saescientist-framework.png" alt="SAEScientist-Bench Figure 2: benchmark construction, agent discovery, and evaluation" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://trae1oung.github.io/posttrainbench0/" target="_blank">
-                    <papertitle>PostTrainBench⁰: Can LLM Agents Automate LLM Post-Training Without Gradients?</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu
-                  <br>
-                  <em>Research Blog</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> PostTrainBench⁰ evaluates whether LLM agents can improve frozen models through gradient-free, score-only search under fixed compute and time budgets.</div>
-                  <a href="https://trae1oung.github.io/posttrainbench0/" target="_blank">blog</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/PostTrainBench0" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="posttrainbench0/figures/posttrainbench-system.png" target="_blank" title="View PostTrainBench⁰ system design">
-                  <img src="posttrainbench0/figures/posttrainbench-system.png" alt="PostTrainBench⁰ gradient-free post-training system design" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2608.02499" target="_blank">
-                    <papertitle>SWE-Touch: Benchmarking Coding Agents When Users Touch the Code</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu
-                  <br>
-                  <em>Preprint</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> SWE-Touch injects validated, task-conflicting user edits into live coding-agent trajectories to evaluate state awareness and adaptation in shared workspaces.</div>
-                  <a href="https://arxiv.org/abs/2608.02499" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://trae1oung.github.io/SWE-Touch/" target="_blank">project</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/SWE-Touch" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/swe-touch.webp" target="_blank" title="View SWE-Touch framework">
+<body><a class="skip-link" href="#research">Skip to research</a>
+<nav aria-label="Main navigation"><div class="nav-inner"><a href="#about" class="brand">Yuqiao Tan</a><button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle menu" aria-controls="navLinks" aria-expanded="false">☰</button><div class="nav-links" id="navLinks"><a href="#about">About</a><a href="#news">News</a><a href="#research">Research</a><a href="#talks">Talks</a><a href="#service">Service</a><a href="#contact">Contact</a></div></div></nav>
+<main class="wrap"><header id="about"><div class="hero"><div class="hero-text"><h1>Yuqiao Tan</h1><div class="h1-cn">谭宇乔 · Master’s Student</div><p>I'm a master’s student at the <a href="http://www.ia.ac.cn/">Institute of Automation, Chinese Academy of Sciences</a>, advised by <a href="https://heshizhu.github.io/">Prof. Shizhu He</a>. I received my B.E. from <a href="https://www.uestc.edu.cn/">UESTC</a>.</p><p>My research focuses on <strong>language models and AI agents</strong>, with interests in capability evaluation, mechanistic interpretability, and reinforcement learning.</p><div class="links-row" id="contact"><a href="mailto:tanyuqiao2025@ia.ac.cn"><i class="fas fa-envelope" aria-hidden="true"></i> tanyuqiao2025[at]ia.ac.cn</a><a href="https://github.com/Trae1ounG" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a><a href="https://scholar.google.com/citations?user=ISxELyMAAAAJ" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div></div><div class="profile-visuals"><div class="portrait-frame"><img src="images/my-notion-face-portrait.png" alt="Illustrated portrait of Yuqiao Tan" class="portrait" width="232" height="232"></div></div></div><div class="research-narrative"><p>As frontier agents become more capable, I believe evaluation is struggling to keep pace. I develop tasks and evaluations to understand what agents can do, where they fall short, and how they can become better <strong>AI researchers and scientists</strong>, including through RSI and interpretability research.</p><p>I am equally interested in agents as <strong>user collaborators</strong>. I have worked on large-scale optimization of foundation models to better support users. Even as agents become more autonomous, I believe learning from user feedback and adapting to human involvement remain essential.</p><p class="framework-lead">The framework below brings these directions together: understanding and improving models, evaluating their capabilities, and learning through interaction.</p><figure class="research-overview" id="research-overview"><a href="images/research-framework.svg" target="_blank" rel="noopener noreferrer" aria-label="View the full-resolution research framework"><img src="images/research-framework.svg" alt="Research framework: mechanistic interpretability and reinforcement learning support AI researchers and user collaborators, with frontier capability evaluation and feedback between users, agents, and environments." width="1000" height="570" loading="lazy" decoding="async"></a><figcaption><a href="images/research-framework.svg" target="_blank" rel="noopener noreferrer">View full-size framework <span aria-hidden="true">↗</span></a></figcaption></figure></div></header><section id="news"><div class="section-head"><h2>News</h2></div><ul class="news-list"><li><time class="news-date" datetime="2026-08">2026.08</time><div class="news-event"><p>Two papers accepted to <strong>EMNLP 2026</strong> (1 Main, 1 Findings).</p><div class="news-papers"><span><a href="#bupo">BuPO</a> <span class="news-contribution">(Main, co-first author)</span></span><span><a href="https://arxiv.org/abs/2606.29824" target="_blank" rel="noopener noreferrer">Neural Procedural Memory</a> <span class="news-contribution">(Findings, co-author)</span></span></div></div></li><li><time class="news-date" datetime="2026-04">2026.04</time><div class="news-event"><p>One paper accepted to <strong>ACL 2026 (Main)</strong>. <a href="https://aclanthology.org/2026.acl-long.2096/" target="_blank" rel="noopener noreferrer">DEPT ↗</a></p><span class="news-role">Co-author</span></div></li><li><time class="news-date" datetime="2026-01">2026.01</time><div class="news-event"><p>Invited talk at <strong>NICE</strong> on internal policies of LLMs and reinforcement learning. <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank" rel="noopener noreferrer">Video ↗</a></p></div></li></ul><details class="news-archive"><summary>Earlier updates <span>2025 &amp; earlier</span></summary><ul class="news-list"><li><time class="news-date" datetime="2025-10">2025.10</time><div class="news-event"><p>One paper accepted to <strong>NeurIPS 2025 Efficient Reasoning Workshop</strong>. <a href="#zero-step">Zero-Step Thinking ↗</a></p><span class="news-role">First author</span></div></li><li><time class="news-date" datetime="2025-05">2025.05</time><div class="news-event"><p>One paper accepted to <strong>ACL 2025 (Main)</strong>. <a href="#neural-incompatibility">Neural Incompatibility ↗</a></p><span class="news-role">First author</span></div></li><li><time class="news-date" datetime="2025-04">2025.04</time><div class="news-event"><p>One paper accepted to <strong>ICMR 2025</strong>. <a href="#robustpt">RobustPT ↗</a></p><span class="news-role">Co-first author</span></div></li><li><time class="news-date" datetime="2024-04">2024.04</time><div class="news-event"><p>One paper accepted to <strong>ICMR 2024</strong>. <a href="#gsap">G-SAP ↗</a></p><span class="news-role">Co-first author</span></div></li></ul></details></section><section id="research"><div class="section-head"><h2>Research</h2></div><p class="footnote">* equal contribution</p><div class="publication-year" role="group" aria-labelledby="publications-2026"><h3 class="year-heading" id="publications-2026">2026</h3><article class="pub" id="saescientist"><a class="pub-figure" href="images/publications/saescientist-framework.png" target="_blank" rel="noopener noreferrer" title="View SAEScientist-Bench system overview">
+                  <img src="images/publications/saescientist-framework.png" alt="SAEScientist-Bench autonomous SAE interpretability research system overview" loading="lazy" decoding="async">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neutral">Preprint</span><a class="year arxiv-date" href="https://arxiv.org/abs/2609.09113" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2026-09-08">arXiv · <time datetime="2026-09-08">2026-09-08</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2609.09113" target="_blank" rel="noopener noreferrer">
+                    SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Shizhu He, Jun Zhao, Kang Liu</p><p class="paper-tldr">SAEScientist-Bench evaluates whether AI agents can recover semantically specified SAE features using restricted activation probes and validates them through held-out activation and causal steering.</p><div class="paper-links"><a href="https://arxiv.org/abs/2609.09113" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/SAEScientist" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="posttrainbench"><a class="pub-figure" href="images/publications/posttrainbench-framework.png" target="_blank" rel="noopener noreferrer" title="View PostTrainBench⁰ system design">
+                  <img src="images/publications/posttrainbench-framework.png" alt="PostTrainBench⁰ gradient-free post-training system design" loading="lazy" decoding="async">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neutral">Research Blog</span></div><h4 class="pub-title"><a href="https://trae1oung.github.io/posttrainbench0/" target="_blank" rel="noopener noreferrer">
+                    PostTrainBench⁰: Can LLM Agents Automate LLM Post-Training Without Gradients?
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu</p><p class="paper-tldr">PostTrainBench⁰ evaluates whether LLM agents can improve frozen models through gradient-free, score-only search under fixed compute and time budgets.</p><div class="paper-links">
+                  <a href="https://trae1oung.github.io/posttrainbench0/" target="_blank" rel="noopener noreferrer">blog</a>
+                  <a href="https://github.com/Trae1ounG/PostTrainBench0" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="swe-touch"><a class="pub-figure" href="images/publications/swe-touch.webp" target="_blank" rel="noopener noreferrer" title="View SWE-Touch framework">
                   <img src="images/publications/swe-touch.webp" alt="SWE-Touch benchmark construction and shared-workspace evaluation framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2604.14142" target="_blank">
-                    <papertitle>From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan*</b>, Minzheng Wang*, Bo Liu, Zichen Liu, Tian Liang, Shizhu He, Jun Zhao, Kang Liu
-                  <br>
-                  <em>Preprint</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> DSRL warms up models with negative-sample reinforcement on unconditional P(y), then reincarnates the policy into conditional P(y|x) reinforcement learning.</div>
-                  <a href="https://arxiv.org/abs/2604.14142" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/Pretrain_Space_RLVR" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/prerl.webp" target="_blank" title="View PreRL framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neutral">Preprint</span><a class="year arxiv-date" href="https://arxiv.org/abs/2608.02499" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2026-08-03">arXiv · <time datetime="2026-08-03">2026-08-03</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2608.02499" target="_blank" rel="noopener noreferrer">
+                    SWE-Touch: Benchmarking Coding Agents When Users Touch the Code
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu</p><p class="paper-tldr">SWE-Touch injects validated, task-conflicting user edits into live coding-agent trajectories to evaluate state awareness and adaptation in shared workspaces.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2608.02499" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://trae1oung.github.io/SWE-Touch/" target="_blank" rel="noopener noreferrer">project</a>
+                  <a href="https://github.com/Trae1ounG/SWE-Touch" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="prerl"><a class="pub-figure" href="images/publications/prerl.webp" target="_blank" rel="noopener noreferrer" title="View PreRL framework">
                   <img src="images/publications/prerl.webp" alt="Comparison between post-train-space and pre-train-space reinforcement learning" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td width="100%" valign="middle">
-              <p style="color:#999; font-weight:700; margin:0;"><strong>2025</strong></p>
-              <hr style="border:0; border-top:1px solid #e5e5e5; margin:8px 0 0 0;">
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2512.19673" target="_blank">
-                    <papertitle>Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan*</b>, Minzheng Wang*, Shizhu He, Huanxuan Liao, Chengfeng Zhao, Qiunan Lu, Tian Liang, Jun Zhao, Kang Liu
-                  <br>
-                  <em>EMNLP 2026 Main</em> <span role="img" aria-label="accepted">🎉</span>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> BuPO first optimizes a lower-layer internal policy to rebuild foundational reasoning, then switches to full-model reinforcement learning for refinement.</div>
-                  <a href="https://arxiv.org/abs/2512.19673" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/BuPO" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/bupo.webp" target="_blank" title="View BuPO framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neutral">Preprint</span><a class="year arxiv-date" href="https://arxiv.org/abs/2604.14142" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2026-04-15">arXiv · <time datetime="2026-04-15">2026-04-15</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2604.14142" target="_blank" rel="noopener noreferrer">
+                    From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space
+                  </a></h4><p class="authors"><b>Yuqiao Tan*</b>, Minzheng Wang*, Bo Liu, Zichen Liu, Tian Liang, Shizhu He, Jun Zhao, Kang Liu</p><p class="paper-tldr">DSRL warms up models with negative-sample reinforcement on unconditional P(y), then reincarnates the policy into conditional P(y|x) reinforcement learning.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2604.14142" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/Pretrain_Space_RLVR" target="_blank" rel="noopener noreferrer">code</a></div></div></article></div><div class="publication-year" role="group" aria-labelledby="publications-2025"><h3 class="year-heading" id="publications-2025">2025</h3><article class="pub" id="bupo"><a class="pub-figure" href="images/publications/bupo.webp" target="_blank" rel="noopener noreferrer" title="View BuPO framework">
                   <img src="images/publications/bupo.webp" alt="Bottom-up Policy Optimization internal policy framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2510.19176" target="_blank">
-                    <papertitle>The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao
-                  <br>
-                  <em>NeurIPS 2025 Efficient Reasoning Workshop</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> Mode selection is a harder early-exit problem because it must choose a reasoning mode before observing any question-specific reasoning trajectory.</div>
-                  <a href="https://arxiv.org/abs/2510.19176" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/Zero_Step_Thinking" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/zero-step.webp" target="_blank" title="View Zero-Step overview">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="emnlp">EMNLP 2026 Main</span><a class="year arxiv-date" href="https://arxiv.org/abs/2512.19673" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2025-12-22">arXiv · <time datetime="2025-12-22">2025-12-22</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2512.19673" target="_blank" rel="noopener noreferrer">
+                    Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies
+                  </a></h4><p class="authors"><b>Yuqiao Tan*</b>, Minzheng Wang*, Shizhu He, Huanxuan Liao, Chengfeng Zhao, Qiunan Lu, Tian Liang, Jun Zhao, Kang Liu</p><p class="paper-tldr">BuPO first optimizes a lower-layer internal policy to rebuild foundational reasoning, then switches to full-model reinforcement learning for refinement.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2512.19673" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/BuPO" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="zero-step"><a class="pub-figure" href="images/publications/zero-step.webp" target="_blank" rel="noopener noreferrer" title="View Zero-Step overview">
                   <img src="images/publications/zero-step.webp" alt="Comparison of iterative Early Exit and zero-step Mode Selection" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2505.14436" target="_blank">
-                    <papertitle>Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in LLMs</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao
-                  <br>
-                  <em>ACL 2025 Main</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> Cross-scale parametric knowledge transfer requires alignment, yet behavioral and structural differences create neural incompatibility that destabilizes both PostPKT and PrePKT.</div>
-                  <a href="https://arxiv.org/abs/2505.14436" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/Neural_Incompatibility" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/neural-incompatibility.webp" target="_blank" title="View LaTen framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neurips">NeurIPS 2025 Efficient Reasoning Workshop</span><a class="year arxiv-date" href="https://arxiv.org/abs/2510.19176" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2025-10-22">arXiv · <time datetime="2025-10-22">2025-10-22</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2510.19176" target="_blank" rel="noopener noreferrer">
+                    The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao</p><p class="paper-tldr">Mode selection is a harder early-exit problem because it must choose a reasoning mode before observing any question-specific reasoning trajectory.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2510.19176" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/Zero_Step_Thinking" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="neural-incompatibility"><a class="pub-figure" href="images/publications/neural-incompatibility.webp" target="_blank" rel="noopener noreferrer" title="View LaTen framework">
                   <img src="images/publications/neural-incompatibility.webp" alt="Language-based and parameter-based cross-scale knowledge transfer frameworks" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2503.23895" target="_blank">
-                    <papertitle>Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement</papertitle>
-                  </a>
-                  <br>
-                  <b>Yuqiao Tan</b>, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu
-                  <br>
-                  <em>Preprint</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> DyPRAG trains a lightweight translator to convert retrieved documents into dynamic LoRA parameters, enhancing LLM knowledge efficiently at test time.</div>
-                  <a href="https://arxiv.org/abs/2503.23895" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/DyPRAG" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/dyprag.webp" target="_blank" title="View DyPRAG framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="acl">ACL 2025 Main</span><a class="year arxiv-date" href="https://arxiv.org/abs/2505.14436" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2025-05-20">arXiv · <time datetime="2025-05-20">2025-05-20</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2505.14436" target="_blank" rel="noopener noreferrer">
+                    Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in LLMs
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Shizhu He, Kang Liu, Jun Zhao</p><p class="paper-tldr">Cross-scale parametric knowledge transfer requires alignment, yet behavioral and structural differences create neural incompatibility that destabilizes both PostPKT and PrePKT.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2505.14436" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/Neural_Incompatibility" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="dyprag"><a class="pub-figure" href="images/publications/dyprag.webp" target="_blank" rel="noopener noreferrer" title="View DyPRAG framework">
                   <img src="images/publications/dyprag.webp" alt="DyPRAG offline parameter translation and online inference framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank">
-                    <papertitle>RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-Language Models with Missing Modalities</papertitle>
-                  </a>
-                  <br>
-                  Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
-                  <br>
-                  <em>ICMR 2025</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> RobustPT dynamically disentangles modality-specific prompts before softly aligning them, reducing channel bias and improving robustness when vision or language is missing.</div>
-                  <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank">paper</a> &nbsp/&nbsp
-                  <a href="https://github.com/Trae1ounG/RobustPT" target="_blank">code</a>
-                </div>
-                <a class="publication-figure" href="images/publications/robustpt.webp" target="_blank" title="View RobustPT framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="neutral">Preprint</span><a class="year arxiv-date" href="https://arxiv.org/abs/2503.23895" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2025-03-31">arXiv · <time datetime="2025-03-31">2025-03-31</time></a></div><h4 class="pub-title"><a href="https://arxiv.org/abs/2503.23895" target="_blank" rel="noopener noreferrer">
+                    Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement
+                  </a></h4><p class="authors"><b>Yuqiao Tan</b>, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu</p><p class="paper-tldr">DyPRAG trains a lightweight translator to convert retrieved documents into dynamic LoRA parameters, enhancing LLM knowledge efficiently at test time.</p><div class="paper-links">
+                  <a href="https://arxiv.org/abs/2503.23895" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/DyPRAG" target="_blank" rel="noopener noreferrer">code</a></div></div></article><article class="pub" id="robustpt"><a class="pub-figure" href="images/publications/robustpt.webp" target="_blank" rel="noopener noreferrer" title="View RobustPT framework">
                   <img src="images/publications/robustpt.webp" alt="RobustPT multimodal prompt generation and fusion framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td width="100%" valign="middle">
-              <p style="color:#999; font-weight:700; margin:0;"><strong>2024</strong></p>
-              <hr style="border:0; border-top:1px solid #e5e5e5; margin:8px 0 0 0;">
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://arxiv.org/abs/2409.04693" target="_blank">
-                    <papertitle>MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality</papertitle>
-                  </a>
-                  <br>
-                  Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
-                  <br>
-                  <em>Preprint</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> MuAP generates modality-specific complete and missing prompts, fuses them into ViLT, and iteratively aligns text and vision through multi-step tuning.</div>
-                  <a href="https://arxiv.org/abs/2409.04693" target="_blank">paper</a>
-                </div>
-                <a class="publication-figure" href="images/publications/muap.webp" target="_blank" title="View MuAP framework">
-                  <img src="images/publications/muap.webp" alt="MuAP multimodal prompt generation, fusion, and multi-step tuning framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td valign="top" width="95%">
-              <div class="publication-entry">
-                <div class="publication-content">
-                  <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank">
-                    <papertitle>G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge</papertitle>
-                  </a>
-                  <br>
-                  Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.
-                  <br>
-                  <em>ICMR 2024</em>
-                  <div class="paper-tldr"><strong>TL;DR:</strong> G-SAP builds refined evidence graphs, derives structure-aware prompts for frozen language models, and performs heterogeneous graph-text message passing for commonsense reasoning.</div>
-                  <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank">paper</a>
-                </div>
-                <a class="publication-figure" href="images/publications/gsap.webp" target="_blank" title="View G-SAP framework">
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="icmr">ICMR 2025</span></div><h4 class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank" rel="noopener noreferrer">
+                    RobustPT: Dynamic Disentanglement Prompt Tuning in Vision-Language Models with Missing Modalities
+                  </a></h4><p class="authors">Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.</p><p class="paper-tldr">RobustPT dynamically disentangles modality-specific prompts before softly aligning them, reducing channel bias and improving robustness when vision or language is missing.</p><div class="paper-links">
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3733423" target="_blank" rel="noopener noreferrer">paper</a>
+                  <a href="https://github.com/Trae1ounG/RobustPT" target="_blank" rel="noopener noreferrer">code</a></div></div></article></div><div class="publication-year" role="group" aria-labelledby="publications-2024"><h3 class="year-heading" id="publications-2024">2024</h3><article class="pub" id="gsap"><a class="pub-figure" href="images/publications/gsap.webp" target="_blank" rel="noopener noreferrer" title="View G-SAP framework">
                   <img src="images/publications/gsap.webp" alt="G-SAP evidence graph, structure-aware prompting, and message-passing framework" loading="lazy" decoding="async">
-                </a>
-              </div>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Education</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="90%" valign="center">
-              <p>
-                M.E., Pattern Recognition and Intelligent System, <papertitle>Institute of Automation, UCAS</papertitle>, 2025 - present
-                <br>
-                <br>
-                B.E., Software Engineering, <papertitle>University of Electronic Science and Technology of China</papertitle>, 2021 - 2025
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Internship</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="90%" valign="center">
-              <p>
-                <papertitle><a href="https://smartinternet.group/" target="_blank">Tsinghua University, SIG</a></papertitle>, Research Intern, 2023.07 - 2024.05, Focus on <em><b>GNN, IoT</b></em>
-                <br>
-                <br>
-                <papertitle><a href="https://www.dongchedi.com/" target="_blank">ByteDance, DCar-AI-Y</a></papertitle>, Research Intern, 2024.01 - 2024.07, Focus on <b><em>RAG, GenIR</em></b>
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Award</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="90%" valign="center">
-              <p>
-                <papertitle>Outstanding Graduate of Sichuan Province</papertitle>, 2024
-                <br>
-                <br>
-                <papertitle>First Prize, Baidu Business AI Technology Innovation Competition (80000 RMB)</papertitle>, 2024
-                <br>
-                <br>
-                <papertitle>Soong Ching Ling Scholarship, UESTC</papertitle>, 2023
-                <br>
-                <br>
-                <papertitle>National Scholarship, Ministry of Education</papertitle>, 2022
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="24">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Invited Talk</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="90%" valign="center">
-              <p>
-                <papertitle>NICE</papertitle> - Internal Policy of LLMs and Reinforcement Learning, 2026.01
-                <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank">[Video]</a>
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Reviewer</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="90%" valign="center">
-              <p>
-                EMNLP 2026, COLM 2026, ICMR 2025, NeurIPS ER 2025
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
+                </a><div class="pub-body"><div class="pub-meta"><span class="venue" data-venue="icmr">ICMR 2024</span><a class="year arxiv-date" href="https://arxiv.org/abs/2405.05616" target="_blank" rel="noopener noreferrer" aria-label="arXiv first submission 2024-05-09">arXiv · <time datetime="2024-05-09">2024-05-09</time></a></div><h4 class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank" rel="noopener noreferrer">
+                    G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge
+                  </a></h4><p class="authors">Ruiting Dai*, <b>Yuqiao Tan*</b>, et al.</p><p class="paper-tldr">G-SAP builds refined evidence graphs, derives structure-aware prompts for frozen language models, and performs heterogeneous graph-text message passing for commonsense reasoning.</p><div class="paper-links"><a href="https://arxiv.org/abs/2405.05616" target="_blank" rel="noopener noreferrer">arXiv</a>
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3652583.3658040" target="_blank" rel="noopener noreferrer">paper</a></div></div></article></div></section><section id="talks"><div class="section-head"><h2>Talks</h2></div><ul class="activity-list"><li><time datetime="2026-01">2026.01</time><div><h3>Internal Policy of LLMs and Reinforcement Learning</h3><p>NICE · Invited talk <a href="https://www.bilibili.com/video/BV1HMzKBSEq5/" target="_blank" rel="noopener noreferrer">Video ↗</a></p></div></li></ul></section><section id="service"><div class="section-head"><h2>Academic Service</h2></div><ul class="activity-list"><li><span class="activity-year">2026</span><div><h3>Reviewer</h3><p>EMNLP 2026 · COLM 2026</p><p>NeurIPS 2026 Workshops: Meta-Agents · TTCL · Verify-Agents · Pre-to-Post</p></div></li><li><span class="activity-year">2025</span><div><h3>Reviewer</h3><p>ICMR 2025 · NeurIPS 2025 Efficient Reasoning Workshop</p></div></li></ul></section><footer>© 2026 Yuqiao Tan · Last updated Sep 2026</footer></main><script src="script.js?v=framework29"></script></body></html>
