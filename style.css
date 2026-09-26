@@ -325,7 +325,6 @@ h1,.section-head h2{color:var(--ink)}
 .research-narrative{margin-top:28px;color:var(--ink-soft);line-height:1.8}
 .research-narrative>p{margin:0 0 14px}
 .research-narrative strong{color:var(--ink);font-weight:600}
-.research-narrative>.framework-lead{margin:20px 0 0;font-size:.93rem}
 .research-overview{width:min(100%,740px);margin:16px auto 4px;scroll-margin-top:85px}
 .research-overview>a{display:block;cursor:zoom-in}
 .research-overview img{display:block;width:100%;height:auto}
@@ -337,3 +336,16 @@ h1,.section-head h2{color:var(--ink)}
  .research-narrative{margin-top:24px}
  .research-overview{margin-top:16px}
 }
+
+/* Related updates share one monthly date. */
+.news-month-items{list-style:disc;padding-left:17px;margin:0}
+.news-list .news-month-items>li{display:list-item;padding:0 0 7px;line-height:1.75;font-size:.95rem}
+.news-list .news-month-items>li:last-child{padding-bottom:0}
+.news-month-items>li::marker{color:var(--ink-soft);font-size:.75em}
+@media(max-width:540px){.news-list .news-month-items>li{font-size:.94rem}}
+
+/* A concise research summary with readable, parallel interests. */
+.research-interests{list-style:disc;margin:0 0 18px;padding-left:22px}
+.research-interests li{padding-left:3px;margin:5px 0;line-height:1.7}
+.research-interests li::marker{color:var(--ink-soft);font-size:.8em}
+.research-narrative>.research-experience{margin-bottom:22px}
